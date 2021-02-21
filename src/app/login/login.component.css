@@ -1,0 +1,17 @@
+#my_login_page{
+	background-image: url('../../assets/img/6.jpg');
+	background-size: cover;
+			background-repeat: no-repeat;
+			height: 100vh;
+			width: 100%;
+
+}
+
+#myloginForm{
+	background-color: rgba(0,0,0,0.77);
+	padding: 10px;
+	color: white;
+}
+#register{
+	margin-left: 5px;
+}

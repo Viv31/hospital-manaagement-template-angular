@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+<a class="navbar-brand" routerLink="/dashboard" routerLinkActive="active">Angular CRUD</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample" aria-controls="navbarsExample" aria-expanded="false" aria-label="Toggle navigation">
+
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarsExample">
+<ul class="navbar-nav mr-auto">
+	<li class="nav-item">
+		<a class="nav-link"  routerLink="/dashboard">Home</a>
+	</li>
+	<!-- <li class="nav-item">
+		<a class="nav-link"  routerLink="/login">Login</a>
+	</li> -->
+	
+	<li class="nav-item">
+		<a class="nav-link"  routerLink="/all-patients">All Patients</a>
+	</li>
+	<li class="nav-item">
+			<a class="nav-link"  routerLink="/all-doctors">All Doctors</a>
+		</li>	
+		<li class="nav-item">
+			<a class="nav-link"  routerLink="/all-appointments">All Appointments</a>
+		</li>	
+	<li class="nav-item">
+		<button type="button"  class="btn btn-block" routerLink="/logout">logout</button>
+	</li>
+</ul>
+</div>
+</nav>
+<div class="container-fluid" id="dashboard_container">	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 mx-auto">
+					<h3 class="text-white text-center bg-dark mb-3 mt-4">Welcome,Admin</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 mb-2">
+					<a  routerLink="/all-patients">
+							<div class="card bg-info text-white">
+							    <div class="card-body text-center">All Patients
+								 <span class="badge badge-secondary">100</span>
+							</div>
+						   <div class="card-body"><img src="../../assets/img/p.png" height="50" width="50" class="mx-auto d-block">
+						   </div>
+					    </div>
+					</a>
+			</div>
+			<div class="col-md-4 mb-2">
+					<a routerLink="/all-appointments">
+							<div class="card bg-info text-white">
+							    <div class="card-body text-center">All Appointments
+								 <span class="badge badge-secondary">100</span>
+							</div>
+						   <div class="card-body"><img src="../../assets/img/10.png" height="50" width="50" class="mx-auto d-block">
+						   </div>
+					    </div>
+					</a>
+			</div>
+			<div class="col-md-4 mb-2">
+					<a routerLink="/all-doctors">
+							<div class="card bg-info text-white">
+							    <div class="card-body text-center">Doctors List
+								 <span class="badge badge-secondary">100</span>
+							</div>
+						   <div class="card-body"><img src="../../assets/img/10.png" height="50" width="50" class="mx-auto d-block">
+						   </div>
+					    </div>
+					</a>
+			</div>
+			</div>
+		</div>
+</div>
